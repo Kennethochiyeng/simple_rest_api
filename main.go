@@ -12,7 +12,6 @@ type Article struct {
 	Desc    string `json:"desc"`
 	Content string `json:"content"`
 }
-
 type Articles []Article
 
 func allArticles(w http.ResponseWriter, r *http.Request) {
